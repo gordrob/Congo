@@ -107,35 +107,34 @@ set_convoys = 80
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Hubert Pierlot"
-	desc = "POLITICS_HUBERT_PIERLOT_DESC"
-	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
+	
+	name = "François Tolenga"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = despotism
 	traits = {
-		#
+		compassionate_gentleman
+	}
+}
+create_country_leader = {
+	
+	name = "Lumumba Lomendja"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		silent_workhorse
 	}
 }
 
 create_country_leader = {
-	name = "Joseph Jacquemotte"
-	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	
+	name = "David Manera"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_Land_3.dds"
 	expire = "1965.1.1"
-	ideology = anarchist_communism
+	ideology = fascism_ideology
 	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Léon Degrelle"
-	desc = "POLITICS_LEON_DEGRELLE_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = rexism
-	traits = {
-		#
+		
 	}
 }
 
