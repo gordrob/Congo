@@ -2,16 +2,25 @@
 state={
 	id=538
 	name="STATE_538" # Central Congo
-	manpower = 1693974
+	manpower = 3693974
 	
-	state_category = wasteland
+	state_category = megalopolis
+	
 	resources={
-		rubber=5 # was: 5
+		oil=100
+		aluminium=50
+		rubber=50
+		tungsten=20
+		steel=50
+		chromium=40
 	}
+	
 	history={
 		owner = CGO
 		buildings = {
-			infrastructure = 1
+			infrastructure = 8
+			arms_factory = 6
+			industrial_complex = 6
 		}
 		add_core_of = COG
 		add_core_of = CGO

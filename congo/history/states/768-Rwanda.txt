@@ -2,7 +2,16 @@ state={
 	id=768
 	name="STATE_768" # Rwanda
 	
-	state_category = pastoral
+	state_category = megalopolis
+
+	resources={
+		oil=50
+		aluminium=50
+		rubber=50
+		tungsten=20
+		steel=50
+		chromium=100
+	}
 
 	history={
 		owner = CGO
@@ -12,14 +21,15 @@ state={
 			9962 1
 		}
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 8
+			arms_factory = 6
+			industrial_complex = 6
 		}
 	}
 
 	provinces={
 		9962
 	}
-	manpower=1716564
+	manpower=3716564
 	buildings_max_level_factor=1.000
 }
