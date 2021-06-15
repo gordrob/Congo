@@ -1,0 +1,38 @@
+﻿units= {
+
+	##### NAVAL UNITS #####
+	
+	fleet = {
+		name = "Congo Fleet"			
+		naval_base = 10968 # Leopoldville
+		task_force = {				
+			name = "Battleships"
+			location = 10968 # Leopoldville
+			### Battleship Division ###			
+			ship = { name = "USS Nevada" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CGO version_name = "Leopold Class" } } }				
+			ship = { name = "USS Arizona" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CGO version_name = "Leopold Class" } } }				
+			ship = { name = "USS Pennsylvania" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CGO version_name = "Leopold Class" } } }							
+		}				
+		task_force = {					
+			name = "Cruisers"
+			location = 10968 # Leopoldville
+			# Cruiser Division #			
+			ship = { name = "USS Omaha" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CGO version_name = "Elisabeth Class" } } }				
+			ship = { name = "USS Milwaukee" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CGO version_name = "Elisabeth Class" } } }				
+			ship = { name = "USS Cincinnati" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CGO version_name = "Elisabeth Class" } } }				
+		}					
+		task_force = {					
+			name = "Destroyers"				
+			location = 10968 # Leopoldville
+			### Destroyer Squadron ###				
+			ship = { name = "USS Dewey" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGO version_name = "Kigali Class" } } }
+			ship = { name = "USS Hull" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGO version_name = "Kigali Class" } } }
+			ship = { name = "USS MacDonough" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGO version_name = "Kigali Class" } } }
+			ship = { name = "USS Worden" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGO version_name = "Kigali Class" } } }
+			ship = { name = "USS Kigali" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGO version_name = "Kigali Class" } } }
+			ship = { name = "USS Dale" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGO version_name = "Kigali Class" } } }
+			ship = { name = "USS Monaghan" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGO version_name = "Kigali Class" } } }
+			ship = { name = "USS Aylwin" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGO version_name = "Kigali Class" } } }
+		}											
+	}
+}
