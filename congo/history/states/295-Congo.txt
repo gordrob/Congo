@@ -2,21 +2,29 @@
 state={
 	id=295
 	name="STATE_295" # Leopoldville
-	manpower = 3540948
+	manpower = 7540948
 	
-	state_category = rural
+	state_category = megalopolis
 	
 	resources={
-		tungsten=2 # was: 2
+		oil=50
+		aluminium=50
+		rubber=50
+		tungsten=20
+		steel=100
+		chromium=40
 	}
 
 	history={
 		owner = CGO
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 10
+			arms_factory = 4
+			industrial_complex = 4
+			dockyard = 4
+			air_base = 4
 			10968 = {
-				naval_base = 1
+				naval_base = 6
 			}
 		}
 		victory_points = {
