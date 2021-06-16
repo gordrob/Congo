@@ -2,7 +2,7 @@
 state={
 	id=295
 	name="STATE_295" # Leopoldville
-	manpower = 7540948
+	manpower = 21540948
 	
 	state_category = megalopolis
 	
