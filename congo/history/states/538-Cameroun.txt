@@ -2,7 +2,7 @@
 state={
 	id=538
 	name="STATE_538" # Central Congo
-	manpower = 3693974
+	manpower = 9693974
 	
 	state_category = megalopolis
 	
