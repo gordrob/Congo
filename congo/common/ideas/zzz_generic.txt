@@ -1100,6 +1100,29 @@ ideas = {
 	
 	political_advisor = {
 		# POLITICAL	
+		
+		# start CGO mod
+		african_silent_workhorse = {
+			
+			allowed = {
+			}
+
+			available = {
+			}
+			
+			traits = { silent_workhorse }
+	
+			on_add = {
+			}
+	
+			do_effect = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		} # end CGO mod
+		
 		generic_communist_revolutionary = {
 			
 			allowed = {
