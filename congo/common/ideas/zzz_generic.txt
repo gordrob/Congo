@@ -1105,10 +1105,13 @@ ideas = {
 		african_silent_workhorse = {
 			
 			allowed = {
+				original_tag = CGO
 			}
 
 			available = {
 			}
+			
+			picture = generic_political_advisor_female_africa
 			
 			traits = { silent_workhorse }
 	
