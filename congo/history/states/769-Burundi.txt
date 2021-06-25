@@ -3,6 +3,7 @@ state={
 	name="STATE_769" # Burundi
 	
 	state_category = megalopolis
+	manpower=9145731
 
 	resources={
 		oil=50
@@ -30,6 +31,6 @@ state={
 	provinces={
 		2220
 	}
-	manpower=18145731
+	
 	buildings_max_level_factor=1.000
 }

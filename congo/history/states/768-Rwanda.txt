@@ -3,6 +3,7 @@ state={
 	name="STATE_768" # Rwanda
 	
 	state_category = megalopolis
+	manpower=5316564
 
 	resources={
 		oil=50
@@ -30,6 +31,6 @@ state={
 	provinces={
 		9962
 	}
-	manpower=9716564
+	
 	buildings_max_level_factor=1.000
 }
